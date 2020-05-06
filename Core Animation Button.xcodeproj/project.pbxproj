@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5033B6172463118C00264499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B6162463118C00264499 /* AppDelegate.swift */; };
-		5033B6192463118C00264499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B6182463118C00264499 /* SceneDelegate.swift */; };
-		5033B61B2463118C00264499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B61A2463118C00264499 /* ViewController.swift */; };
-		5033B61E2463118C00264499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033B61C2463118C00264499 /* Main.storyboard */; };
-		5033B6202463119200264499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5033B61F2463119200264499 /* Assets.xcassets */; };
-		5033B6232463119200264499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033B6212463119200264499 /* LaunchScreen.storyboard */; };
+		5033B64C2463171C00264499 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B63C2463171B00264499 /* ViewController.swift */; };
+		5033B64D2463171C00264499 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033B63D2463171B00264499 /* Main.storyboard */; };
+		5033B64E2463171C00264499 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B6402463171B00264499 /* Toast.swift */; };
+		5033B64F2463171C00264499 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5033B6412463171B00264499 /* README.md */; };
+		5033B6502463171C00264499 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5033B6432463171B00264499 /* Assets.xcassets */; };
+		5033B6512463171C00264499 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5033B6442463171B00264499 /* LaunchScreen.storyboard */; };
+		5033B6532463171C00264499 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B64A2463171C00264499 /* AppDelegate.swift */; };
+		5033B6542463171C00264499 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5033B64B2463171C00264499 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5033B6132463118C00264499 /* Core Animation Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core Animation Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5033B6162463118C00264499 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5033B6182463118C00264499 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5033B61A2463118C00264499 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5033B61D2463118C00264499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5033B61F2463119200264499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5033B6222463119200264499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5033B6132463118C00264499 /* Anime Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anime Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5033B6242463119200264499 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5033B63C2463171B00264499 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5033B63E2463171B00264499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5033B6402463171B00264499 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		5033B6412463171B00264499 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5033B6432463171B00264499 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5033B6452463171B00264499 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5033B64A2463171C00264499 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5033B64B2463171C00264499 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		5033B6142463118C00264499 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5033B6132463118C00264499 /* Core Animation Button.app */,
+				5033B6132463118C00264499 /* Anime Button.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +60,57 @@
 		5033B6152463118C00264499 /* Core Animation Button */ = {
 			isa = PBXGroup;
 			children = (
-				5033B6162463118C00264499 /* AppDelegate.swift */,
-				5033B6182463118C00264499 /* SceneDelegate.swift */,
-				5033B61A2463118C00264499 /* ViewController.swift */,
-				5033B61C2463118C00264499 /* Main.storyboard */,
-				5033B61F2463119200264499 /* Assets.xcassets */,
-				5033B6212463119200264499 /* LaunchScreen.storyboard */,
+				5033B6492463171C00264499 /* Delegates */,
+				5033B63F2463171B00264499 /* Helpers */,
+				5033B6412463171B00264499 /* README.md */,
+				5033B6422463171B00264499 /* Resources */,
+				5033B6482463171C00264499 /* Screenshots */,
+				5033B63B2463171B00264499 /* View Controller */,
 				5033B6242463119200264499 /* Info.plist */,
 			);
 			path = "Core Animation Button";
+			sourceTree = "<group>";
+		};
+		5033B63B2463171B00264499 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5033B63C2463171B00264499 /* ViewController.swift */,
+				5033B63D2463171B00264499 /* Main.storyboard */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		5033B63F2463171B00264499 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5033B6402463171B00264499 /* Toast.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5033B6422463171B00264499 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5033B6432463171B00264499 /* Assets.xcassets */,
+				5033B6442463171B00264499 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5033B6482463171C00264499 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+		5033B6492463171C00264499 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5033B64A2463171C00264499 /* AppDelegate.swift */,
+				5033B64B2463171C00264499 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +130,7 @@
 			);
 			name = "Core Animation Button";
 			productName = "Core Animation Button";
-			productReference = 5033B6132463118C00264499 /* Core Animation Button.app */;
+			productReference = 5033B6132463118C00264499 /* Anime Button.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,9 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5033B6232463119200264499 /* LaunchScreen.storyboard in Resources */,
-				5033B6202463119200264499 /* Assets.xcassets in Resources */,
-				5033B61E2463118C00264499 /* Main.storyboard in Resources */,
+				5033B64F2463171C00264499 /* README.md in Resources */,
+				5033B6512463171C00264499 /* LaunchScreen.storyboard in Resources */,
+				5033B6502463171C00264499 /* Assets.xcassets in Resources */,
+				5033B64D2463171C00264499 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,27 +185,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5033B61B2463118C00264499 /* ViewController.swift in Sources */,
-				5033B6172463118C00264499 /* AppDelegate.swift in Sources */,
-				5033B6192463118C00264499 /* SceneDelegate.swift in Sources */,
+				5033B6542463171C00264499 /* SceneDelegate.swift in Sources */,
+				5033B6532463171C00264499 /* AppDelegate.swift in Sources */,
+				5033B64C2463171C00264499 /* ViewController.swift in Sources */,
+				5033B64E2463171C00264499 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5033B61C2463118C00264499 /* Main.storyboard */ = {
+		5033B63D2463171B00264499 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5033B61D2463118C00264499 /* Base */,
+				5033B63E2463171B00264499 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5033B6212463119200264499 /* LaunchScreen.storyboard */ = {
+		5033B6442463171B00264499 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5033B6222463119200264499 /* Base */,
+				5033B6452463171B00264499 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -285,13 +333,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XG9VTZMR8;
 				INFOPLIST_FILE = "Core Animation Button/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Core-Animation-Button";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.coreanimation-1";
+				PRODUCT_NAME = "Anime Button";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,13 +351,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XG9VTZMR8;
 				INFOPLIST_FILE = "Core Animation Button/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.Core-Animation-Button";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vijay.coreanimation-1";
+				PRODUCT_NAME = "Anime Button";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
