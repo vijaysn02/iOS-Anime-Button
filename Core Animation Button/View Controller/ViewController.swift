@@ -34,7 +34,7 @@ extension ViewController  {
     func initialButtonSetup() {
         
         animationButton = UIButton(frame: CGRect(x: 0, y: 0, width: ballWidth, height: ballWidth))
-        animationButton.backgroundColor = UIColor(red: 57/255.0, green: 73/255.0, blue: 171/255.0, alpha: 1)
+        animationButton.backgroundColor = .red
         animationButton.layer.cornerRadius = animationButton.frame.width/2
         animationButton.center = self.view.center
         
