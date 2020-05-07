@@ -22,17 +22,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         initialButtonSetup()
     }
     
 }
 
-//MARK: - Initial View Setup
+//MARK: - Initial View - Button Setup
 extension ViewController  {
     
     func initialButtonSetup() {
-        
+
         animationButton = UIButton(frame: CGRect(x: 0, y: 0, width: ballWidth, height: ballWidth))
         animationButton.backgroundColor = .red
         animationButton.layer.cornerRadius = animationButton.frame.width/2
@@ -56,10 +55,8 @@ extension ViewController  {
 //MARK: - Button Animation
 extension ViewController {
     
-    fileprivate func animateButton(duration: CFTimeInterval = 1.0) {
+    func animateButton(duration: CFTimeInterval = 1.5) {
         
-        //Defining the Model properties
-        let oldValue = animationButton.frame.width/2
         var newButtonWidth = smallBallWidth
        
         //Change the ball dimensions
@@ -69,31 +66,10 @@ extension ViewController {
             newButtonWidth = bigBallWidth
         }
         
-        //Forms a Bézier curve with given points
-        let timingFunction = CAMediaTimingFunction(controlPoints: 0.65, -0.55, 0.27, 1.55)
+        //Calling the Animation
+        Animation.animateButton(button: animationButton, viewController: self, duration: duration, newButtonWidth: newButtonWidth)
         
-
-        CATransaction.begin()
-        
-        //Setting the Animation Properties in Presentation Layer
-        CATransaction.setAnimationDuration(duration)
-        CATransaction.setAnimationTimingFunction(timingFunction)
-
-        //View animations
-        UIView.animate(withDuration: duration) {
-            self.animationButton.frame = CGRect(x: 0, y: 0, width: newButtonWidth, height: newButtonWidth)
-            self.animationButton.center = self.view.center
-        }
-        
-        //Layer animations
-        let cornerAnimation = CABasicAnimation(keyPath: #keyPath(CALayer.cornerRadius))
-        cornerAnimation.fromValue = oldValue
-        cornerAnimation.toValue = newButtonWidth/2
-        
-        animationButton.layer.cornerRadius = newButtonWidth/2
-        animationButton.layer.add(cornerAnimation, forKey: #keyPath(CALayer.cornerRadius))
-        
-        //Switching the mode
+        //Restoring the State
         if !isExpanded {
             ballWidth = smallBallWidth
             isExpanded = true
@@ -101,8 +77,8 @@ extension ViewController {
             ballWidth = bigBallWidth
             isExpanded = false
         }
-        
-        CATransaction.commit()
     }
+    
+    
     
 }
