@@ -99,4 +99,4 @@ There is no specific installation needed for this implementation.
 ```
 
 
-### Check out my Post about Animation Button : [Animation Button](https://vijaysn.com/2020/04/23/ios-av-player/)
+### Check out my Post about Animation Button : [Animation Button](https://vijaysn.com/mobile/ios/ios-core-animation-%e2%85%a0)
